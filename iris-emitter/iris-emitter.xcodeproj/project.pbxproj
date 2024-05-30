@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28EFBC462C0897CB0089E54E /* iris_emitterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EFBC452C0897CB0089E54E /* iris_emitterApp.swift */; };
+		28EFBC482C0897CB0089E54E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EFBC472C0897CB0089E54E /* ContentView.swift */; };
+		28EFBC4A2C0897CC0089E54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EFBC492C0897CC0089E54E /* Assets.xcassets */; };
+		28EFBC4D2C0897CC0089E54E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EFBC4C2C0897CC0089E54E /* Preview Assets.xcassets */; };
+		28EFBC572C0897CC0089E54E /* iris_emitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EFBC562C0897CC0089E54E /* iris_emitterTests.swift */; };
+		28EFBC612C0897CC0089E54E /* iris_emitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EFBC602C0897CC0089E54E /* iris_emitterUITests.swift */; };
+		28EFBC632C0897CC0089E54E /* iris_emitterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EFBC622C0897CC0089E54E /* iris_emitterUITestsLaunchTests.swift */; };
+		28EFBC702C0898710089E54E /* HeartEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EFBC6F2C0898710089E54E /* HeartEmitterView.swift */; };
+		28EFBC792C08B6F10089E54E /* ColorHeartEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EFBC782C08B6F10089E54E /* ColorHeartEmitter.swift */; };
+		28EFBC7B2C08BBDA0089E54E /* HeartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EFBC7A2C08BBDA0089E54E /* HeartShape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28EFBC532C0897CC0089E54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28EFBC3A2C0897CB0089E54E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28EFBC412C0897CB0089E54E;
+			remoteInfo = "iris-emitter";
+		};
+		28EFBC5D2C0897CC0089E54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28EFBC3A2C0897CB0089E54E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28EFBC412C0897CB0089E54E;
+			remoteInfo = "iris-emitter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28EFBC422C0897CB0089E54E /* iris-emitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iris-emitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EFBC452C0897CB0089E54E /* iris_emitterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iris_emitterApp.swift; sourceTree = "<group>"; };
+		28EFBC472C0897CB0089E54E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28EFBC492C0897CC0089E54E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28EFBC4C2C0897CC0089E54E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28EFBC522C0897CC0089E54E /* iris-emitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iris-emitterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EFBC562C0897CC0089E54E /* iris_emitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iris_emitterTests.swift; sourceTree = "<group>"; };
+		28EFBC5C2C0897CC0089E54E /* iris-emitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iris-emitterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EFBC602C0897CC0089E54E /* iris_emitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iris_emitterUITests.swift; sourceTree = "<group>"; };
+		28EFBC622C0897CC0089E54E /* iris_emitterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iris_emitterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28EFBC6F2C0898710089E54E /* HeartEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartEmitterView.swift; sourceTree = "<group>"; };
+		28EFBC782C08B6F10089E54E /* ColorHeartEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHeartEmitter.swift; sourceTree = "<group>"; };
+		28EFBC7A2C08BBDA0089E54E /* HeartShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShape.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28EFBC3F2C0897CB0089E54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EFBC4F2C0897CC0089E54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EFBC592C0897CC0089E54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28EFBC392C0897CB0089E54E = {
+			isa = PBXGroup;
+			children = (
+				28EFBC442C0897CB0089E54E /* iris-emitter */,
+				28EFBC552C0897CC0089E54E /* iris-emitterTests */,
+				28EFBC5F2C0897CC0089E54E /* iris-emitterUITests */,
+				28EFBC432C0897CB0089E54E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28EFBC432C0897CB0089E54E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28EFBC422C0897CB0089E54E /* iris-emitter.app */,
+				28EFBC522C0897CC0089E54E /* iris-emitterTests.xctest */,
+				28EFBC5C2C0897CC0089E54E /* iris-emitterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28EFBC442C0897CB0089E54E /* iris-emitter */ = {
+			isa = PBXGroup;
+			children = (
+				28EFBC452C0897CB0089E54E /* iris_emitterApp.swift */,
+				28EFBC472C0897CB0089E54E /* ContentView.swift */,
+				28EFBC6F2C0898710089E54E /* HeartEmitterView.swift */,
+				28EFBC782C08B6F10089E54E /* ColorHeartEmitter.swift */,
+				28EFBC7A2C08BBDA0089E54E /* HeartShape.swift */,
+				28EFBC492C0897CC0089E54E /* Assets.xcassets */,
+				28EFBC4B2C0897CC0089E54E /* Preview Content */,
+			);
+			path = "iris-emitter";
+			sourceTree = "<group>";
+		};
+		28EFBC4B2C0897CC0089E54E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28EFBC4C2C0897CC0089E54E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28EFBC552C0897CC0089E54E /* iris-emitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				28EFBC562C0897CC0089E54E /* iris_emitterTests.swift */,
+			);
+			path = "iris-emitterTests";
+			sourceTree = "<group>";
+		};
+		28EFBC5F2C0897CC0089E54E /* iris-emitterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28EFBC602C0897CC0089E54E /* iris_emitterUITests.swift */,
+				28EFBC622C0897CC0089E54E /* iris_emitterUITestsLaunchTests.swift */,
+			);
+			path = "iris-emitterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28EFBC412C0897CB0089E54E /* iris-emitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EFBC662C0897CC0089E54E /* Build configuration list for PBXNativeTarget "iris-emitter" */;
+			buildPhases = (
+				28EFBC3E2C0897CB0089E54E /* Sources */,
+				28EFBC3F2C0897CB0089E54E /* Frameworks */,
+				28EFBC402C0897CB0089E54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iris-emitter";
+			packageProductDependencies = (
+			);
+			productName = "iris-emitter";
+			productReference = 28EFBC422C0897CB0089E54E /* iris-emitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28EFBC512C0897CC0089E54E /* iris-emitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EFBC692C0897CC0089E54E /* Build configuration list for PBXNativeTarget "iris-emitterTests" */;
+			buildPhases = (
+				28EFBC4E2C0897CC0089E54E /* Sources */,
+				28EFBC4F2C0897CC0089E54E /* Frameworks */,
+				28EFBC502C0897CC0089E54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28EFBC542C0897CC0089E54E /* PBXTargetDependency */,
+			);
+			name = "iris-emitterTests";
+			productName = "iris-emitterTests";
+			productReference = 28EFBC522C0897CC0089E54E /* iris-emitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28EFBC5B2C0897CC0089E54E /* iris-emitterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EFBC6C2C0897CC0089E54E /* Build configuration list for PBXNativeTarget "iris-emitterUITests" */;
+			buildPhases = (
+				28EFBC582C0897CC0089E54E /* Sources */,
+				28EFBC592C0897CC0089E54E /* Frameworks */,
+				28EFBC5A2C0897CC0089E54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28EFBC5E2C0897CC0089E54E /* PBXTargetDependency */,
+			);
+			name = "iris-emitterUITests";
+			productName = "iris-emitterUITests";
+			productReference = 28EFBC5C2C0897CC0089E54E /* iris-emitterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28EFBC3A2C0897CB0089E54E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					28EFBC412C0897CB0089E54E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					28EFBC512C0897CC0089E54E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 28EFBC412C0897CB0089E54E;
+					};
+					28EFBC5B2C0897CC0089E54E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 28EFBC412C0897CB0089E54E;
+					};
+				};
+			};
+			buildConfigurationList = 28EFBC3D2C0897CB0089E54E /* Build configuration list for PBXProject "iris-emitter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28EFBC392C0897CB0089E54E;
+			packageReferences = (
+			);
+			productRefGroup = 28EFBC432C0897CB0089E54E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28EFBC412C0897CB0089E54E /* iris-emitter */,
+				28EFBC512C0897CC0089E54E /* iris-emitterTests */,
+				28EFBC5B2C0897CC0089E54E /* iris-emitterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28EFBC402C0897CB0089E54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EFBC4D2C0897CC0089E54E /* Preview Assets.xcassets in Resources */,
+				28EFBC4A2C0897CC0089E54E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EFBC502C0897CC0089E54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EFBC5A2C0897CC0089E54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28EFBC3E2C0897CB0089E54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EFBC702C0898710089E54E /* HeartEmitterView.swift in Sources */,
+				28EFBC7B2C08BBDA0089E54E /* HeartShape.swift in Sources */,
+				28EFBC792C08B6F10089E54E /* ColorHeartEmitter.swift in Sources */,
+				28EFBC482C0897CB0089E54E /* ContentView.swift in Sources */,
+				28EFBC462C0897CB0089E54E /* iris_emitterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EFBC4E2C0897CC0089E54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EFBC572C0897CC0089E54E /* iris_emitterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EFBC582C0897CC0089E54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EFBC632C0897CC0089E54E /* iris_emitterUITestsLaunchTests.swift in Sources */,
+				28EFBC612C0897CC0089E54E /* iris_emitterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28EFBC542C0897CC0089E54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28EFBC412C0897CB0089E54E /* iris-emitter */;
+			targetProxy = 28EFBC532C0897CC0089E54E /* PBXContainerItemProxy */;
+		};
+		28EFBC5E2C0897CC0089E54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28EFBC412C0897CB0089E54E /* iris-emitter */;
+			targetProxy = 28EFBC5D2C0897CC0089E54E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28EFBC642C0897CC0089E54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28EFBC652C0897CC0089E54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28EFBC672C0897CC0089E54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iris-emitter/Preview Content\"";
+				DEVELOPMENT_TEAM = VZPB9A3LAW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinka.iris-emitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		28EFBC682C0897CC0089E54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iris-emitter/Preview Content\"";
+				DEVELOPMENT_TEAM = VZPB9A3LAW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinka.iris-emitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		28EFBC6A2C0897CC0089E54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPB9A3LAW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinka.iris-emitterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iris-emitter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iris-emitter";
+			};
+			name = Debug;
+		};
+		28EFBC6B2C0897CC0089E54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPB9A3LAW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinka.iris-emitterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iris-emitter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iris-emitter";
+			};
+			name = Release;
+		};
+		28EFBC6D2C0897CC0089E54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPB9A3LAW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinka.iris-emitterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iris-emitter";
+			};
+			name = Debug;
+		};
+		28EFBC6E2C0897CC0089E54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPB9A3LAW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yinka.iris-emitterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iris-emitter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28EFBC3D2C0897CB0089E54E /* Build configuration list for PBXProject "iris-emitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EFBC642C0897CC0089E54E /* Debug */,
+				28EFBC652C0897CC0089E54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EFBC662C0897CC0089E54E /* Build configuration list for PBXNativeTarget "iris-emitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EFBC672C0897CC0089E54E /* Debug */,
+				28EFBC682C0897CC0089E54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EFBC692C0897CC0089E54E /* Build configuration list for PBXNativeTarget "iris-emitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EFBC6A2C0897CC0089E54E /* Debug */,
+				28EFBC6B2C0897CC0089E54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EFBC6C2C0897CC0089E54E /* Build configuration list for PBXNativeTarget "iris-emitterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EFBC6D2C0897CC0089E54E /* Debug */,
+				28EFBC6E2C0897CC0089E54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28EFBC3A2C0897CB0089E54E /* Project object */;
+}
